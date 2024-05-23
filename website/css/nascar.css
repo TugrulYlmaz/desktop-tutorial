@@ -1,0 +1,273 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+section{
+    padding: 100px 0;
+    background: #0A0F23;
+}
+
+.section_title{
+    margin-bottom: 30px;
+}
+
+.section_title h2{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    transition: all .5s ease-in-out;
+}
+
+.section_title h2:hover{
+    background-color: #24caac;
+}
+.pilots{
+    position: relative;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+    width: 1150px;
+}
+.pilots:hover{
+    background-color: #24caac;
+}
+.habersection {
+    position: relative;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+    width: 1280px;
+}
+.habersection:hover{
+    background-color: #24caac;
+}
+/* HEADER */
+header{
+    background: #0A0F23;
+    border-bottom: 1px solid white;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.nav_links{
+    display: flex;
+}
+
+.nav_links li a{
+    margin-left: 15px;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.nav_links li a:hover{
+    background: #24caac;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    z-index: 1;
+}
+.dropdown-content li a{
+    color:white ;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content li a:hover{background-color: #24caac;}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h2 a{
+    margin: 0;
+    color: yellow;
+    text-transform: uppercase;
+}
+.logo img{
+    width: 80px;
+    margin-right: 10px;
+}
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.card{
+    background-color: #0A0F23;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+.card h2{
+    color: red;
+}
+.container{
+    margin-right: 50px;
+    flex-basis: 31%;
+    background-color: #24caac;
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: 0.9s;
+}
+.card img{
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+}
+.container h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.container p {
+    padding: 0;
+    text-align: justify;
+    color: white;
+    text-align: center;
+}
+.container:hover{
+    box-shadow: 0 0 20px 0px rgba(1,1,1,0.9);
+    background-color: #bc804f;
+}
+.nascar{
+    background-color: #bc804f;
+    margin-right: 30px;
+    float: right;
+    margin-top: -95%;
+    border-radius: 35px;
+    font-size: 30px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.nascar th{
+    color: #24caac;
+    font-size: 30px;
+    width: 60%;
+}
+.nascar td:nth-child(1){
+    color: white;
+    text-align: left;
+}.nascar td:nth-child(2){
+    color: white;
+    text-align: right;
+}
+.nascar img{
+    width: 50px;
+    height: 30px;
+}
+.haber {
+    display: flex;
+    background-color: #0A0F23;
+    border: 1px solid #ddd;
+    border-radius: 35px;
+    margin-bottom: 20px;
+    padding: 15px;
+    width: 67%;
+}
+
+.haber-resim {
+    max-width: 250px; 
+    margin-right: 15px;
+}
+
+.haber-icerik {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.haber-baslik {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: orange;
+}
+
+.haber-detay {
+    background-color: white;
+    font-size: 19px;
+    color: black;
+    border-radius: 15px;
+}
+.haber-detay p {
+    text-align: justify;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.foot{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.foot img{
+    width: 100px;
+}
+.resim-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.resim-container img{
+    width: 350px;
+    margin: 0 10px;
+}
+.resim-container-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.resim-container-2 img{ 
+    width: 350px;
+    margin: 0 10px;
+}
